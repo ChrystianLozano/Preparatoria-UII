@@ -1,0 +1,165 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+  #logoPart1, #logoPart2, #logoPart3, #logoPart4{
+   transition: 1s;
+  }
+#banner{
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+.logo {
+    float: left;
+}
+#menutop{
+    position: absolute;
+    top: 0px;
+}
+#fichaButon{
+    background-image: url("../img/fondoficha.png");
+    max-width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 70px;
+    right: 115px;
+    text-align: center;
+    color: #484848;
+    padding: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+#fichaButon:hover{
+    background-image: url("../img/fondofichahover.png");
+    background-position: center;
+    background-repeat: no-repeat;    
+    color: white;
+}
+#resultados{
+    background-color: #007a37;
+    max-width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 75px;
+    right: 17px;
+    text-align: center;
+    color: #484848;
+    padding: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 0.7em;
+    color: white;
+    z-index: 2;
+}
+#resultados:hover{
+    background-color: #484848;
+}
+h1{
+    font-weight: bolder;
+    font-size: 3.5em
+}
+h1, p{
+    color: #494949;
+}
+h2{
+    color: #de1c19;
+}
+li{
+    list-style-position: outside;
+    list-style: none;
+}
+#imagen{
+    margin:0;
+}
+
+
+  .regla1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .boton2{
+    padding: 10px;
+
+    height: 130px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+
+
+  }
+  div.card-header{
+    background-color:white;
+    border: 1px solid #484848;
+  }
+  button.btn-link{
+    font-weight: bold;
+  }
+
+  a.card-link{
+    background: #d9001d;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+
+  }
+
+
+  a.collapsed{
+    background: white;
+    text-decoration: none;
+    color: #4a4a4a;
+    border: 1px solid #4a4a4a;
+  }
+
+
+  #accordion{
+    justify-content: center;
+  }
+  #actividades1, #actividades2{
+    padding-left: 150px;
+  }
+  #plan{
+    border: 1px solid black;
+  }
+  #plan:hover{
+    background-color: #d9001d;
+    color: white;
+    border: 1px solid #d9001d;
+  }
+  #lemenu, #logoPart1, #logoPart2, #logoPart3, #logoPart4{
+   transition: 2s;
+  }
+
+
+@media screen and (max-width:1319px) {
+  #logo, #solicitud {
+    display: none;
+    width: 0px;
+    }
+
+
+}
+
+@media screen and (max-width:1290px) {
+  #fichaButon{
+    top: 100px;
+  }
+  #resultados{
+    top: 105px;
+  }
+  #actividades1, #actividades2{
+    padding-left: 80px;
+  }
+
+}
+
